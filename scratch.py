@@ -6,9 +6,9 @@ import requests
 
 def create_directories(filenames):
     for filename in filenames:
-        path = os.path.join("data", filename)
-        if not os.path.exists(path):
-            os.makedirs(os.path.join(path))
+        file_path = os.path.join(curr_dir, "data", file_name)
+        if not os.path.exists(file_path):
+            os.makedirs(os.path.join(file_path))
 
 key = 'e52f0769ccdce73f961a6332beb2033e'
 
