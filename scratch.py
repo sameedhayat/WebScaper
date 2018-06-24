@@ -8,7 +8,7 @@ def create_directories(filenames):
     for filename in filenames:
         path = os.path.join("data", filename)
         if not os.path.exists(path):
-            os.makedirs(os.path.join(path)
+            os.makedirs(os.path.join(path))
 
 key = 'e52f0769ccdce73f961a6332beb2033e'
 
