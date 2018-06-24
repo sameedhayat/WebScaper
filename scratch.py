@@ -44,6 +44,7 @@ for name, url in zip(filenames, urls):
 
         with open(file_path, "w") as f:
             f.writelines(repr(feed))
-    except:
-        pass
+    except Exception as e:
+        print(e)
+
 
