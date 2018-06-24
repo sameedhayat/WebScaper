@@ -1,7 +1,7 @@
 from crontab import CronTab
 
-cron = CronTab(user='sameedhayat')
-job = cron.new(command='python example1.py')
+cron = CronTab(user=True)
+job = cron.new(command='python scratch.py')
 job.minute.every(1)
 
 cron.write()
