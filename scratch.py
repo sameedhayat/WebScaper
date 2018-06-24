@@ -5,6 +5,7 @@ import os
 import requests
 
 def create_directories(filenames):
+    curr_dir = os.path.dirname(os.path.abspath(__file__))
     for filename in filenames:
         file_path = os.path.join(curr_dir, "data", file_name)
         if not os.path.exists(file_path):
