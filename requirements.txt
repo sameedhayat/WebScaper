@@ -5,7 +5,7 @@ idna==2.7
 protobuf==3.6.0
 python-crontab==2.3.4
 python-dateutil==2.7.3
-requests==2.19.1
+requests==2.20.0
 six==1.11.0
 urllib3==1.23
 wget==3.2
